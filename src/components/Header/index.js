@@ -25,15 +25,27 @@ function Header() {
 
     return (
         <div>
-            <Navigation
+          <nav className="navbar">
+            <div className="navbar-brand">
+              <a
+                className="navbar-item"
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/BoKok?tab=repositories"
+              >
+                <span className="content is-large">Bo Kok</span>
+              </a>
+            </div>
+          </nav>
+          <Navigation
             currentPage={currentPage}
-            handlePageChange={setCurrentPage}
-            />
-            <main>
-                <div>{renderPage(currentPage)}</div>
-            </main>
+            setCurrentPage={setCurrentPage}
+          />
+          <main>
+            <div>{renderPage(currentPage)}</div>
+          </main>
         </div>
-    )
-}
+      );
+    }
 
 export default Header;

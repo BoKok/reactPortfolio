@@ -31,10 +31,6 @@ main {
   margin-right: 30em;
 }
 
-.my-pic {
-	clip-path: circle();
-  width: 250px;
-}
 
 .label {
   text-align: left;
@@ -54,4 +50,31 @@ footer.footer {
       margin-left: 2em;
       margin-right: 2em;
     }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 40%;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: lightblue;
+}
+
+.active {
+  color: lightblue;
 }
