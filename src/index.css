@@ -31,16 +31,27 @@ main {
   margin-right: 30em;
 }
 
-
 .label {
   text-align: left;
+  float: left;
+}
+
+.nInput {
+  margin-left: 53px;
+}
+
+.textarea {
+  margin-left: 30px;
+}
+
+#contact-form div {
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 footer.footer {
   background-color: rgb(255, 255, 255);
 }
-
-
 
 
 @media only screen and (max-width: 1024px) {
@@ -77,4 +88,8 @@ li a:hover:not(.active) {
 
 .active {
   color: lightblue;
+}
+
+.portfolioImage {
+  width: 100%;
 }

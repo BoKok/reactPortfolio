@@ -25,7 +25,7 @@ function Header() {
 
     return (
         <div>
-          <nav className="navbar">
+          <nav>
             <div className="navbar-brand">
               <a
                 className="navbar-item"
