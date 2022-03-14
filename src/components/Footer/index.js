@@ -17,6 +17,12 @@ function Footer() {
           >
             LinkedIn
           </a>
+          <a
+            href="https://www.linkedin.com/in/bo-kok-3282631ab/"
+            target="_blank" rel="noreferrer"
+          >
+            GitHub
+          </a>
         </p>
       </div>
     </footer>

@@ -93,3 +93,8 @@ li a:hover:not(.active) {
 .portfolioImage {
   width: 100%;
 }
+
+.pic {
+	clip-path: circle();
+
+}
